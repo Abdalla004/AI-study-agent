@@ -1,0 +1,25 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Local databases and uploaded files
+chroma_db/
+uploads/
+*.db
+*.sqlite3
+
+# IDE and operating system
+.DS_Store
+.vscode/
